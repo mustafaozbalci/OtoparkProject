@@ -1,0 +1,3 @@
+[submodule "OtoparkFrontend"]
+	path = OtoparkFrontend
+	url = https://github.com/mustafaozbalci/OtoparkFrontend
