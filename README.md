@@ -34,7 +34,7 @@ This project is a web application for managing parking lots. Users can add their
     cd OtoparkProject
     ```
 
-2. Create your PostgreSQL database and configure the necessary settings.(It will be enough to just create a db named PARK, the system will automatically add the tables and add data into it for you to test.)
+2. Create your PostgreSQL database and configure the necessary settings. (It will be enough to just create a db named PARK, the system will automatically add the tables and add data into it for you to test.)
 
 3. Configure the `application.properties` file:
     ```properties
@@ -52,19 +52,22 @@ This project is a web application for managing parking lots. Users can add their
 
 #### Frontend Setup
 
-1. Navigate to the `frontend-app` directory:
+1. Navigate to the `OtoparkFrontend` directory:
     ```bash
-    cd frontend-app
+    cd OtoparkFrontend
     ```
 
-2. Install the necessary dependencies:
+2. If you don't have the frontend code yet, click on the OtoparkFrontend folder and copy the code from the GitHub page that opens:
+    - [OtoparkFrontend GitHub Page](https://github.com/mustafaozbalci/OtoparkFrontend)
+
+3. Install the necessary dependencies:
     ```bash
     npm install
     # or
     yarn install
     ```
 
-3. Start the frontend application:
+4. Start the frontend application:
     ```bash
     npm start
     # or
